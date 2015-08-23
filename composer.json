@@ -1,0 +1,25 @@
+{
+  "name": "citfact/reactengine",
+  "type": "bitrix-module",
+  "description": "ReactJs render for 1C-Bitrix",
+  "keywords": [
+    "ReactJs",
+    "1C-Bitrix"
+  ],
+  "homepage": "https://github.com/studiofact/citfact.reactengine",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kulichkin Denis",
+      "email": "onexhovia@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "composer/installers": "~1.0",
+    "reactjs/react-php-v8js": "dev-master"
+  },
+  "extra": {
+    "installer-name": "citfact.reactengine"
+  }
+}
