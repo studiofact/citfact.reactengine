@@ -49,9 +49,6 @@ class React
     /**
      * Returns current instance of the React.
      *
-     * @throw ConfigurationException When invalid REACT_SOURCE path
-     *                               When invalid APP_SOURCE path
-     *
      * @return React
      */
     public static function getInstance()
